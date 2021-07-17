@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    /* --primary-color: #F9A826; */
+    /* --off-white: #e9c07e; */
+    --off-white:grey;
+    --primary-color:#000;
+    --grat-color: gray;       
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+   
+    
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+ 
+
+
+/*container*/
+.con{ padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.con-c{
+    margin: auto;
+    max-width: 600px;
+}
+
+/*link*/
+
+.link{
+    text-decoration: none;
+
+}
+
+.primary-link{
+    padding: 0.4rem;
+    
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 0.03em;
+    color: white;
+
+}
+
+.secondary-link{
+    padding: 0.4rem;
+    color: var(--primary-color);
+    border-radius: 0.03em;
+    background-color: white;
+    border:1px solid var(--primary-color) ;
+}
+
+
+/*List*/
+
+.non-bullet-list{
+    list-style: none;
+}
+
+.inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+
+
+/*NAV*/
+
+.navigation{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0rem 0.8rem;
+    
+}
+.nav-text{
+    
+    font-weight: bold;
+    
+    color: white;
+}
+
+.nav-main{
+    text-decoration: none;
+
+    color: gray;
+    
+}
+.nav-pills{
+   text-align: right;
+}
+
+.active{
+    text-decoration: none;
+    color: white;
+}
+
+/*HEADER*/
+
+.img{
+    padding: 2rem;
+    margin: auto;
+    max-width: 350px;
+    display: block;
+
+}
+
+.header-line{
+    text-align: center;
+    color: var(--grat-color);
+    
+}
+
+.span-hero{
+    color: var(--primary-color);
+    font-size: 50px;
+    
+}
+
+/*Section*/
+.inner{
+    font-size: 2rem;
+}
+.section h3 {
+    text-align: center;
+}
+.offwhite-section{
+    background-color: var(--off-white); 
+    padding: 1rem;
+}
+
+.section{
+    padding: 2rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 4rem;
+    border-bottom:1px var(--primary-color) solid;
+    border-radius: 2rem 0rem;
+}
+
+.llink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
