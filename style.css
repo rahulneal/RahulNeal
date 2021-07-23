@@ -133,6 +133,12 @@ hr{
 
 }
 
+.responsive {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+
 .header-line{
     text-align: center;
     color: var(--grat-color);
