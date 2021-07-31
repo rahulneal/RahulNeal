@@ -64,6 +64,7 @@ hr{
 .inline{
     padding: 0rem 0.5rem;
     display: inline;
+    
 }
 
 
@@ -71,26 +72,52 @@ hr{
 /*NAV*/
 
 .navigation{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--primary-color);
-    border-radius: 0rem 0.8rem;
+    /* border-radius: 0rem 0.8rem; */
+    background: rgba(0,0,0,0.8);
+    height: 34px;
     
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.navigationt{
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    /* border-radius: 0rem 0.8rem; */
+    background: rgba(0,0,0,0.8);
+    height: 68px;
+    
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.navi{
+    margin-top: -36px;
+    text-align: center;
+    padding: 10px;
+    
+
 }
 .nav-text{
+
     
-    font-weight: bold;
+font-size: large;
+
+margin-top: 20px;
+
+color:white;
+
     
-    color: white;
 }
 
 .nav-main{
     text-decoration: none;
-
+    
     color: gray;
     
 }
 .nav-pills{
-   text-align: right;
+   
+    
+   
 }
 
 .active{
@@ -154,7 +181,7 @@ hr{
 
 /*Section*/
 .inner{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .blog-inner{
     font-size: 18px;
@@ -220,6 +247,79 @@ hr{
     margin-bottom: 5px;
 
 }
+/* newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+.blog .blog-img {
+	width: 100%;
+	max-width: 600px;
+	display: block;
+	margin: auto;
+	padding: 3rem 0rem 2rem;
+}
+.blog h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+.blog h2,
+h3 {
+	text-align: left;
+	font-weight: 400;
+}
+.backCTAContainer {
+	padding: 2rem 1rem 0rem;
+}
+.backCTAbottom {
+	padding: 0rem 1rem 2rem;
+}
 
+.blog .font-bold {
+	font-weight: bold;
+}
 
+.blog .bgcolorGray {
+	background-color: var(--faint-gray);
+}
 
+.blog .highlightBlack {
+	background-color: black;
+	padding: 1rem;
+	color: white;
+	border-radius: 0.5rem;
+}
+.wraplinktext li a {
+	word-wrap: break-word;
+}
+
+.section {
+	padding: 2rem 2rem 3rem;
+}
+
+.section P {
+	text-align: justify;
+}
+.section {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.section h1 {
+	color: var(--moreDarkGray);
+}
+
+.ow {
+	background-color: var(--off-white);
+}
+
+.link-primary {
+	background-color: var(--primary-color);
+	border-radius: 0.5rem;
+	color: white;
+}
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+.article .link {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
