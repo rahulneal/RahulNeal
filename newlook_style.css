@@ -140,9 +140,7 @@ nav ul li{
     position: relative;
 }
 
-.about_yt{
 
-}
 
   
   
@@ -158,6 +156,39 @@ nav ul li{
     right: -95%;
     
 }
+
+
+
+.about_sec2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    margin-top: 10%;
+    /* border: 1px solid #cccccc; */
+    border-radius: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .brand{
     display: flex;
@@ -193,6 +224,18 @@ nav ul li{
 
 
 
+.about_sec3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    margin-top: 10%;
+    /* border: 1px solid #cccccc; */
+    border-radius: 2%;
+}
 
 
 
@@ -205,6 +248,21 @@ nav ul li{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
 
 
 .footer{
@@ -225,3 +283,65 @@ nav ul li{
     font-size: large;
 }
 
+
+
+@media only screen and (max-width: 700px){
+
+
+    .upper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem;
+        z-index: 1;
+        overflow: hidden;
+        position: fixed;
+        top: 0%;
+        width: 700px;
+        background-color: black;
+        /* border-bottom: 0.1px solid #cccccc; */
+        margin-bottom: 10%;
+        box-shadow: 0px 1px 10px #999;
+    
+    }
+    header{
+        
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: var(--black);
+        
+    }
+    header .logo_img{
+     padding-right: .8rem;
+     
+    }
+    header .logo_img img{
+        border-radius: 50%;
+    }
+    header .logo_text{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        background-color: var(--black);
+        
+    
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul li{
+        font-size: medium;
+        padding-right: 1rem;
+        font-weight: 500;
+    }
+
+}
