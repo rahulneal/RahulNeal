@@ -21,6 +21,19 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+
+.new_look{
+    background-color: #17c0eb;
+    text-align: center;
+    color: #ffffff;
+    padding: .7rem;
+    border-radius: 0rem 0rem .8rem .8rem;    
+}
+.new_look p{
+    font-size: large;
+    
+}
+
  
 
 
