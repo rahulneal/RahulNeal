@@ -18,6 +18,7 @@ body{
     background-color: var(--black);
     background-attachment: fixed;
     background-position: 0% 100%;
+    
 }
 ul li{
     list-style: none;
@@ -31,12 +32,14 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
+    z-index: 1;
     overflow: hidden;
     position: fixed;
     top: 0%;
     width: 100%;
     background-color: black;
     border-bottom: 0.1px solid #cccccc;
+    margin-bottom: 10%;
 
 }
 header{
@@ -88,6 +91,7 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     padding: 4rem;
+    margin-top: 10%;
     /* border: 1px solid #cccccc; */
     border-radius: 2%;
 }
@@ -172,7 +176,12 @@ nav ul li{
 
 
 
-
+.linux{
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    
+}
 
 
 
