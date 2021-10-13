@@ -31,7 +31,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
-    overflow: scroll;
+    overflow: hidden;
     position: fixed;
     top: 0%;
     width: 100%;
